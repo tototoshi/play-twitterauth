@@ -1,0 +1,12 @@
+2014-10-27 01:29:53,589 - [INFO] - from play in pool-46-thread-3 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-10-27 01:29:58,451 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-10-27 01:30:06,844 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+RequestToken(28973601-jJEti7WGtqNDvEnUgQqkO7fNZKdOkI3IXUdJow8Ke,UDcL6SwloEI3Z6w3yRFTYQNOqJjyPwZTogZfIYrU0od1e)
+
+2014-10-27 01:30:06,846 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+TwitterUser(28973601,tototoshi,Toshiyuki Takahashi,Scala/PHP & Beatles #rpscala,http://pbs.twimg.com/profile_images/1601948797/twitter_icon_320_320_normal.jpg)
+

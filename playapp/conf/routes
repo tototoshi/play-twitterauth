@@ -1,0 +1,5 @@
+GET     /                           controllers.Application.index
+
+GET     /login                      controllers.TwitterAuthController.login
+GET     /logout                     controllers.TwitterAuthController.logout
+GET     /authorize                  controllers.TwitterAuthController.authorize

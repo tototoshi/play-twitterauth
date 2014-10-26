@@ -1,0 +1,17 @@
+@(login: Option[com.github.tototoshi.play2.twitterauth.TwitterUser])
+
+@login.map { u =>
+  <p>
+    <a href="@routes.TwitterAuthController.logout">logout</a>
+  </p>
+  <p>
+    <img src="@{u.profileImageURL}">
+    <a href="https://twitter.com/@{u.screenName}" target="_blank">@@@{u.screenName}</a>
+    <pre>@u.description
+    </pre>
+  </p>
+}.getOrElse {
+  <p>
+    <a href="@routes.TwitterAuthController.login">login</a>
+  </p>
+}
