@@ -39,7 +39,7 @@ object TwitterAuthController extends TwitterAuthController {
 
   val logoutURL = routes.Application.index
 
-  def postLogin(request: Request[AnyContent], token: RequestToken, user: TwitterUser): Result = {
+  def onAuthorizationSuccess(request: Request[AnyContent], token: RequestToken, user: TwitterUser): Result = {
     // do something
     redirectToLoginSuccessURL(request, token, user)
   }
